@@ -15,7 +15,7 @@
         "mockery/mockery": "^0.9"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Mpociot\\Couchbase": "src/",
             "Mpociot\\Eloquent": "src/"
         }
