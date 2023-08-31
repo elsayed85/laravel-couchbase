@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Mpociot\\Couchbase": "src/",
-            "Mpociot\\Eloquent": "src/"
+            "Hifny\\Couchbase": "src/",
+            "Hifny\\Eloquent": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mpociot\\Couchbase\\CouchbaseServiceProvider"
+                "Hifny\\Couchbase\\CouchbaseServiceProvider"
             ]
         }
     }

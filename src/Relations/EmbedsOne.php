@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Mpociot\Couchbase\Relations;
+namespace Hifny\Couchbase\Relations;
 
 use Illuminate\Database\Eloquent\Model;
 

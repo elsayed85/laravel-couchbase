@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Mpociot\Couchbase\Query;
+namespace Hifny\Couchbase\Query;
 
 use Couchbase\Exception;
 use Illuminate\Contracts\Support\Arrayable;

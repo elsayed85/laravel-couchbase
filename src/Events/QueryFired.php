@@ -6,7 +6,7 @@
  * Time: 10:52
  */
 
-namespace Mpociot\Couchbase\Events;
+namespace Hifny\Couchbase\Events;
 
 
 class QueryFired

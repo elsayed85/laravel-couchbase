@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Mpociot\Couchbase;
+namespace Hifny\Couchbase;
 
 use Couchbase\N1qlQuery;
 use CouchbaseBucket;

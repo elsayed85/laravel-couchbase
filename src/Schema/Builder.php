@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Mpociot\Couchbase\Schema;
+namespace Hifny\Couchbase\Schema;
 
 use Closure;
 use Mpociot\Couchbase\Connection;
