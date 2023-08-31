@@ -174,7 +174,7 @@ class Grammar extends BaseGrammar
     }
 
     /**
-     * @param \Mpociot\Couchbase\Query\Builder $query
+     * @param \Hifny\Couchbase\Query\Builder $query
      * @return string
      */
     protected function compileReturning(Builder $query)
@@ -304,7 +304,7 @@ class Grammar extends BaseGrammar
     }
 
     /**
-     * @param \Mpociot\Couchbase\Query\Builder $query
+     * @param \Hifny\Couchbase\Query\Builder $query
      * @param array $values
      * @return string
      */

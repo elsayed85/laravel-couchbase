@@ -3,7 +3,7 @@
 namespace Hifny\Couchbase\Schema;
 
 use Closure;
-use Mpociot\Couchbase\Connection;
+use Hifny\Couchbase\Connection;
 
 class Builder extends \Illuminate\Database\Schema\Builder
 {

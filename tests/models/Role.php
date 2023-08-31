@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Mpociot\Couchbase\Eloquent\Model as Eloquent;
+use Hifny\Couchbase\Eloquent\Model as Eloquent;
 
 class Role extends Eloquent
 {

@@ -10,8 +10,8 @@ use Illuminate\Database\Query\Expression;
 use Illuminate\Database\Query\Grammars\Grammar as BaseGrammar;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Mpociot\Couchbase\Connection;
-use Mpociot\Couchbase\Helper;
+use Hifny\Couchbase\Connection;
+use Hifny\Couchbase\Helper;
 
 class Builder extends BaseBuilder
 {

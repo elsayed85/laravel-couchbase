@@ -263,7 +263,7 @@ abstract class EmbedsOneOrMany extends Relation
      * Convert an array of records to a Collection.
      *
      * @param  array $records
-     * @return \Mpociot\Couchbase\Eloquent\Collection
+     * @return \Hifny\Couchbase\Eloquent\Collection
      */
     protected function toCollection(array $records = [])
     {

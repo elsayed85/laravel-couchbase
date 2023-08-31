@@ -5,7 +5,7 @@ namespace Hifny\Couchbase\Eloquent;
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Pagination\Paginator;
-use Mpociot\Couchbase\Query\Builder as QueryBuilder;
+use Hifny\Couchbase\Query\Builder as QueryBuilder;
 use Illuminate\Database\Query\Builder as BaseQueryBuilder;
 
 class Builder extends EloquentBuilder

@@ -1,7 +1,7 @@
 <?php
 
-use Mpociot\Couchbase\Query\Builder as Query;
-use Mpociot\Couchbase\Query\Grammar;
+use Hifny\Couchbase\Query\Builder as Query;
+use Hifny\Couchbase\Query\Grammar;
 
 class ArgsParametersTest extends TestCase
 {
