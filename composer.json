@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Hifny\\Couchbase": "src/",
-            "Hifny\\Eloquent": "src/"
+            "Hifny\\Couchbase\\": "src/",
+            "Hifny\\Eloquent\\": "src/"
         }
     },
     "autoload-dev": {
