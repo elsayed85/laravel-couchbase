@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use Mpociot\Couchbase\Query\Builder as Query;
-use Mpociot\Couchbase\Query\Grammar;
+use Hifny\Couchbase\Query\Builder as Query;
+use Hifny\Couchbase\Query\Grammar;
 
 class QueryBuilderTest extends TestCase
 {
@@ -19,7 +19,7 @@ class QueryBuilderTest extends TestCase
      */
     public function testCollection()
     {
-        $this->assertInstanceOf('Mpociot\Couchbase\Query\Builder', DB::connection('couchbase-not-default')->table('users'));
+        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', DB::connection('couchbase-not-default')->table('users'));
     }
 
     /**

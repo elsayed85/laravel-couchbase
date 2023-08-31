@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Mpociot\Couchbase;
+namespace Hifny\Couchbase;
 
 use Couchbase\N1qlQuery;
 use CouchbaseBucket;
 use CouchbaseCluster;
-use Mpociot\Couchbase\Events\QueryFired;
-use Mpociot\Couchbase\Query\Builder as QueryBuilder;
-use Mpociot\Couchbase\Query\Grammar as QueryGrammar;
+use Hifny\Couchbase\Events\QueryFired;
+use Hifny\Couchbase\Query\Builder as QueryBuilder;
+use Hifny\Couchbase\Query\Grammar as QueryGrammar;
 
 class Connection extends \Illuminate\Database\Connection
 {

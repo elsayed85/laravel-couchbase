@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Mpociot\Couchbase\Query\MissingValue;
+use Hifny\Couchbase\Query\MissingValue;
 
 class QueryTest extends TestCase
 {

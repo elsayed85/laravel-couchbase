@@ -6,7 +6,7 @@
  * Time: 11:48
  */
 
-namespace Mpociot\Couchbase\Query;
+namespace Hifny\Couchbase\Query;
 
 
 final class MissingValue
