@@ -6,7 +6,7 @@
  * Time: 10:52
  */
 
-namespace Hifny\Couchbase\Events;
+namespace Elsayed85\Couchbase\Events;
 
 
 class QueryFired

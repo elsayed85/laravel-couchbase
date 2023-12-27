@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Hifny\Couchbase\Eloquent\Model as Eloquent;
+use Elsayed85\Couchbase\Eloquent\Model as Eloquent;
 
 class Group extends Eloquent
 {

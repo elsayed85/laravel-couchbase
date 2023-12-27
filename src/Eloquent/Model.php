@@ -1,14 +1,14 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Eloquent;
+namespace Elsayed85\Couchbase\Eloquent;
 
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Arr;
-use Hifny\Couchbase\Query\Builder as QueryBuilder;
-use Hifny\Couchbase\Query\Grammar;
-use Hifny\Couchbase\Relations\EmbedsMany;
-use Hifny\Couchbase\Relations\EmbedsOne;
+use Elsayed85\Couchbase\Query\Builder as QueryBuilder;
+use Elsayed85\Couchbase\Query\Grammar;
+use Elsayed85\Couchbase\Relations\EmbedsMany;
+use Elsayed85\Couchbase\Relations\EmbedsOne;
 use Illuminate\Support\Str;
 
 abstract class Model extends BaseModel
@@ -80,7 +80,7 @@ abstract class Model extends BaseModel
      * @param  string $localKey
      * @param  string $foreignKey
      * @param  string $relation
-     * @return \Hifny\Couchbase\Relations\EmbedsMany
+     * @return \Elsayed85\Couchbase\Relations\EmbedsMany
      */
     protected function embedsMany($related, $localKey = null, $foreignKey = null, $relation = null)
     {
@@ -115,7 +115,7 @@ abstract class Model extends BaseModel
      * @param  string $localKey
      * @param  string $foreignKey
      * @param  string $relation
-     * @return \Hifny\Couchbase\Relations\EmbedsOne
+     * @return \Elsayed85\Couchbase\Relations\EmbedsOne
      */
     protected function embedsOne($related, $localKey = null, $foreignKey = null, $relation = null)
     {
@@ -411,8 +411,8 @@ abstract class Model extends BaseModel
     /**
      * Create a new Eloquent query builder for the model.
      *
-     * @param  \Hifny\Couchbase\Query\Builder $query
-     * @return \Hifny\Couchbase\Eloquent\Builder|static
+     * @param  \Elsayed85\Couchbase\Query\Builder $query
+     * @return \Elsayed85\Couchbase\Eloquent\Builder|static
      */
     public function newEloquentBuilder($query)
     {

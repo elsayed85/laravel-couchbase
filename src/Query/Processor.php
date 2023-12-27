@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Query;
+namespace Elsayed85\Couchbase\Query;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Processors\Processor as BaseProcessor;

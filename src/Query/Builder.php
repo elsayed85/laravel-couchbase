@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Query;
+namespace Elsayed85\Couchbase\Query;
 
 use Couchbase\Exception;
 use Illuminate\Contracts\Support\Arrayable;
@@ -10,8 +10,8 @@ use Illuminate\Database\Query\Expression;
 use Illuminate\Database\Query\Grammars\Grammar as BaseGrammar;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
-use Hifny\Couchbase\Connection;
-use Hifny\Couchbase\Helper;
+use Elsayed85\Couchbase\Connection;
+use Elsayed85\Couchbase\Helper;
 
 class Builder extends BaseBuilder
 {

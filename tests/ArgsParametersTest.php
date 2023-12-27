@@ -1,7 +1,7 @@
 <?php
 
-use Hifny\Couchbase\Query\Builder as Query;
-use Hifny\Couchbase\Query\Grammar;
+use Elsayed85\Couchbase\Query\Builder as Query;
+use Elsayed85\Couchbase\Query\Grammar;
 
 class ArgsParametersTest extends TestCase
 {

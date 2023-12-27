@@ -6,7 +6,7 @@
  * Time: 13:23
  */
 
-namespace Hifny\Couchbase;
+namespace Elsayed85\Couchbase;
 
 
 class Helper

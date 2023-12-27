@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use Hifny\Couchbase\Eloquent\Model as Eloquent;
-use Hifny\Couchbase\Eloquent\SoftDeletes;
+use Elsayed85\Couchbase\Eloquent\Model as Eloquent;
+use Elsayed85\Couchbase\Eloquent\SoftDeletes;
 
 class Soft extends Eloquent
 {

@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Relations;
+namespace Elsayed85\Couchbase\Relations;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
-use Hifny\Couchbase\Helper;
+use Elsayed85\Couchbase\Helper;
 
 class EmbedsMany extends EmbedsOneOrMany
 {

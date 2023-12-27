@@ -1,13 +1,13 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase;
+namespace Elsayed85\Couchbase;
 
 use Couchbase\N1qlQuery;
 use CouchbaseBucket;
 use CouchbaseCluster;
-use Hifny\Couchbase\Events\QueryFired;
-use Hifny\Couchbase\Query\Builder as QueryBuilder;
-use Hifny\Couchbase\Query\Grammar as QueryGrammar;
+use Elsayed85\Couchbase\Events\QueryFired;
+use Elsayed85\Couchbase\Query\Builder as QueryBuilder;
+use Elsayed85\Couchbase\Query\Grammar as QueryGrammar;
 
 class Connection extends \Illuminate\Database\Connection
 {

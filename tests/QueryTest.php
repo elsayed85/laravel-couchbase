@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Hifny\Couchbase\Query\MissingValue;
+use Elsayed85\Couchbase\Query\MissingValue;
 
 class QueryTest extends TestCase
 {

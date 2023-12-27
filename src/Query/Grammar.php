@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Query;
+namespace Elsayed85\Couchbase\Query;
 
 use Exception;
 use Illuminate\Contracts\Support\Arrayable;
@@ -174,7 +174,7 @@ class Grammar extends BaseGrammar
     }
 
     /**
-     * @param \Hifny\Couchbase\Query\Builder $query
+     * @param \Elsayed85\Couchbase\Query\Builder $query
      * @return string
      */
     protected function compileReturning(Builder $query)
@@ -304,7 +304,7 @@ class Grammar extends BaseGrammar
     }
 
     /**
-     * @param \Hifny\Couchbase\Query\Builder $query
+     * @param \Elsayed85\Couchbase\Query\Builder $query
      * @param array $values
      * @return string
      */

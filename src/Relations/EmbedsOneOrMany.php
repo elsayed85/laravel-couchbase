@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Relations;
+namespace Elsayed85\Couchbase\Relations;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
@@ -263,7 +263,7 @@ abstract class EmbedsOneOrMany extends Relation
      * Convert an array of records to a Collection.
      *
      * @param  array $records
-     * @return \Hifny\Couchbase\Eloquent\Collection
+     * @return \Elsayed85\Couchbase\Eloquent\Collection
      */
     protected function toCollection(array $records = [])
     {

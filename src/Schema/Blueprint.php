@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Schema;
+namespace Elsayed85\Couchbase\Schema;
 
 use Closure;
 use Illuminate\Database\Connection;

@@ -6,7 +6,7 @@
  * Time: 11:48
  */
 
-namespace Hifny\Couchbase\Query;
+namespace Elsayed85\Couchbase\Query;
 
 
 final class MissingValue

@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase;
+namespace Elsayed85\Couchbase;
 
 use Illuminate\Support\ServiceProvider;
-use Hifny\Couchbase\Eloquent\Model;
+use Elsayed85\Couchbase\Eloquent\Model;
 
 class CouchbaseServiceProvider extends ServiceProvider
 {

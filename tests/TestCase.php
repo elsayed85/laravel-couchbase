@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-use Hifny\Couchbase\Events\QueryFired;
+use Elsayed85\Couchbase\Events\QueryFired;
 
 class TestCase extends Orchestra\Testbench\TestCase
 {
@@ -14,7 +14,7 @@ class TestCase extends Orchestra\Testbench\TestCase
     protected function getPackageProviders($app)
     {
         return [
-            Hifny\Couchbase\CouchbaseServiceProvider::class,
+            Elsayed85\Couchbase\CouchbaseServiceProvider::class,
         ];
     }
 

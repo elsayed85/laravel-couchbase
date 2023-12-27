@@ -1,11 +1,11 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Eloquent;
+namespace Elsayed85\Couchbase\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Pagination\Paginator;
-use Hifny\Couchbase\Query\Builder as QueryBuilder;
+use Elsayed85\Couchbase\Query\Builder as QueryBuilder;
 use Illuminate\Database\Query\Builder as BaseQueryBuilder;
 
 class Builder extends EloquentBuilder

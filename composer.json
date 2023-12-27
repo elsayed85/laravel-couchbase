@@ -1,5 +1,5 @@
 {
-    "name": "hifny/laravel-couchbase",
+    "name": "elsayed85/laravel-couchbase",
     "description": "A Couchbase based Eloquent model and Query builder for Laravel",
     "keywords": ["laravel","eloquent","couchbase","database","model"],
     "homepage": "https://github.com/ORT-Interactive-GmbH/laravel-couchbase",
@@ -16,8 +16,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Hifny\\Couchbase\\": "src/",
-            "Hifny\\Eloquent\\": "src/"
+            "Elsayed85\\Couchbase\\": "src/",
+            "Elsayed85\\Eloquent\\": "src/"
         }
     },
     "autoload-dev": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hifny\\Couchbase\\CouchbaseServiceProvider"
+                "Elsayed85\\Couchbase\\CouchbaseServiceProvider"
             ]
         }
     }

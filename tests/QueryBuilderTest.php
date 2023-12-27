@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
-use Hifny\Couchbase\Query\Builder as Query;
-use Hifny\Couchbase\Query\Grammar;
+use Elsayed85\Couchbase\Query\Builder as Query;
+use Elsayed85\Couchbase\Query\Grammar;
 
 class QueryBuilderTest extends TestCase
 {
@@ -19,7 +19,7 @@ class QueryBuilderTest extends TestCase
      */
     public function testCollection()
     {
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', DB::connection('couchbase-not-default')->table('users'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', DB::connection('couchbase-not-default')->table('users'));
     }
 
     /**

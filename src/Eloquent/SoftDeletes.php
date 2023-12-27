@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Eloquent;
+namespace Elsayed85\Couchbase\Eloquent;
 
 trait SoftDeletes
 {

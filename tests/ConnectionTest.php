@@ -5,7 +5,7 @@ class ConnectionTest extends TestCase
     public function testConnection()
     {
         $connection = DB::connection('couchbase-default');
-        $this->assertInstanceOf('Hifny\Couchbase\Connection', $connection);
+        $this->assertInstanceOf('Elsayed85\Couchbase\Connection', $connection);
     }
 
     /**
@@ -15,8 +15,8 @@ class ConnectionTest extends TestCase
     {
         $this->markTestSkipped('Reconnect is currently not required.');
 
-        /** @var \Hifny\Couchbase\Connection $c1 */
-        /** @var \Hifny\Couchbase\Connection $c2 */
+        /** @var \Elsayed85\Couchbase\Connection $c1 */
+        /** @var \Elsayed85\Couchbase\Connection $c2 */
         $c1 = DB::connection('couchbase-default');
         $requiredReference = $c1->getCouchbaseCluster();
         // $requiredReference is required because of spl_object_hash(): Once the object is destroyed, its hash may be reused for other objects.
@@ -42,8 +42,8 @@ class ConnectionTest extends TestCase
      */
     public function testConnectionSingleton()
     {
-        /** @var \Hifny\Couchbase\Connection $c1 */
-        /** @var \Hifny\Couchbase\Connection $c2 */
+        /** @var \Elsayed85\Couchbase\Connection $c1 */
+        /** @var \Elsayed85\Couchbase\Connection $c2 */
         $c1 = DB::connection();
         $c2 = DB::connection('couchbase-default');
         $this->assertEquals(spl_object_hash($c1), spl_object_hash($c2));
@@ -78,19 +78,19 @@ class ConnectionTest extends TestCase
     public function testBucketWithTypes()
     {
         $connection = DB::connection();
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->builder('unittests'));
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->table('unittests'));
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->type('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->builder('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->table('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->type('unittests'));
 
         $connection = DB::connection('couchbase-default');
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->builder('unittests'));
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->table('unittests'));
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->type('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->builder('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->table('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->type('unittests'));
 
         $connection = DB::connection('couchbase-not-default');
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->builder('unittests'));
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->table('unittests'));
-        $this->assertInstanceOf('Hifny\Couchbase\Query\Builder', $connection->type('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->builder('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->table('unittests'));
+        $this->assertInstanceOf('Elsayed85\Couchbase\Query\Builder', $connection->type('unittests'));
     }
 
     public function testQueryLog()

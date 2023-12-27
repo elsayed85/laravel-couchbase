@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Relations;
+namespace Elsayed85\Couchbase\Relations;
 
 use Illuminate\Support\Arr;
 

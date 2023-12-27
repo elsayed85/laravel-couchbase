@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Hifny\Couchbase\Schema;
+namespace Elsayed85\Couchbase\Schema;
 
 use Closure;
-use Hifny\Couchbase\Connection;
+use Elsayed85\Couchbase\Connection;
 
 class Builder extends \Illuminate\Database\Schema\Builder
 {
