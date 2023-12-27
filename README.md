@@ -1,8 +1,8 @@
 Laravel Couchbase
 ===============
 
-[![Build Status](http://img.shields.io/travis/mpociot/laravel-couchbase.svg)](https://travis-ci.org/mpociot/laravel-couchbase)
-[![codecov](https://codecov.io/gh/mpociot/laravel-couchbase/branch/master/graph/badge.svg)](https://codecov.io/gh/mpociot/laravel-couchbase)
+[![Build Status](http://img.shields.io/travis/elsayed85/laravel-couchbase.svg)](https://travis-ci.org/elsayed85/laravel-couchbase)
+[![codecov](https://codecov.io/gh/elsayed85/laravel-couchbase/branch/master/graph/badge.svg)](https://codecov.io/gh/elsayed85/laravel-couchbase)
 
 An Eloquent model and Query builder with support for Couchbase, using the original Laravel API. *This library extends the original Laravel classes, so it uses exactly the same methods.*
 
@@ -26,7 +26,7 @@ Make sure you have the Couchbase PHP driver installed. You can find installation
 Installation using composer:
 
 ```
-composer require mpociot/couchbase
+composer require elsayed85/couchbase
 ```
 
 And add the service provider in `config/app.php`:
