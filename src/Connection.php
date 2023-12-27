@@ -307,12 +307,13 @@ class Connection extends \Illuminate\Database\Connection
     }
 
     /**
-     * Begin a fluent query against documents with given type.
+     * Begin a fluent query against a database table.
      *
-     * @param  string $table
-     * @return Query\Builder
+     * @param  \Closure|\Illuminate\Database\Query\Builder|\Illuminate\Contracts\Database\Query\Expression|string  $table
+     * @param  string|null  $as
+     * @return \Illuminate\Database\Query\Builder
      */
-    public function table($table)
+    public function table($table, $as = null)
     {
         return $this->builder($table);
     }
