@@ -161,11 +161,11 @@ class Connection extends \Illuminate\Database\Connection
     }
 
     /**
-     * @param N1qlQuery $query
+     * @param  $query
      *
      * @return mixed
      */
-    protected function executeQuery(N1qlQuery $query)
+    protected function executeQuery( $query)
     {
         return $this->bucket->query($query);
     }
@@ -267,9 +267,10 @@ class Connection extends \Illuminate\Database\Connection
             $bindings = [];
         }
 
-        $query = N1qlQuery::fromString($n1ql);
-        $query->consistency($this->consistency);
-        $query->positionalParams($bindings);
+        $query = $n1ql;
+        // $query = N1qlQuery::fromString($n1ql);
+        // $query->consistency($this->consistency);
+        // $query->positionalParams($bindings);
         // TODO $query->namedParams(['parameters' => $bindings]);
 
         $isSuccessFul = false;
